@@ -9,11 +9,12 @@ used for any rule that isn't associated with a template. This template
 can be found under `Alert Templates` page and can be edited. It also
 has an option revert it back to its default content.
 
-To attach a template to a rule just open the `Alert Templates`
-settings page, choose the template to assign and click the yellow
-button in the `Actions` column. In the appearing popupbox select the
-rule(s) you want the template to be assigned to and click the `Attach`
-button. You might hold down the CTRL key to select multiple rules at once.
+To attach a template to a rule:
+ 1. `Alerts` > `Alert Templates`
+ 2. Click the blue pencil button for the template to assign to
+ 3. `Attach template to rules`
+ 4. Select the **Alert Rule(s)** to assign to the **Alert Template**.
+ 5. `Update Template`
 
 The templating engine in use is Laravel Blade. We will cover some of
 the basics here, however the official Laravel docs will have more
